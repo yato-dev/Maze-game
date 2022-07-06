@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maze Game</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.18.0/matter.min.js"
+      integrity="sha512-5T245ZTH0m0RfONiFm2NF0zcYcmAuNzcGyPSQ18j8Bs5Pbfhp5HP1hosrR8XRt5M3kSRqzjNMYpm2+it/AUX/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://kit.fontawesome.com/df5ee3ec1c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css" />
+  <body>
+
+<div class="front">
+    <div class="game-logo">
+      <div class="name">
+        <h1 class="start-name">MAZE<br>GAME</h1>
+        <button class="start">START</button>
+      </div>
+    </div>
+  </div>
+  <div class="append"> 
+
+  </div>
+
+   <!-- <div class="background-logo"><img src="" alt=""></div> -->
+   <!-- <div id="menu">
+      <label for="level">choose dificulty</label>
+      <select name="levels" id="levels">
+        <option value="easy" selected>EASY</option>
+        <option value="medium" >MEDIUM</option>
+        <option value="hard" >HARD</option>
+      </select>
+    </div> -->
+
+  
+    <div id="success" class="winner hidden">
+      <h1 class="win-message"> YOU WIN!!!!!</h1>
+      <button class="restart"><i class="fa-solid fa-arrow-rotate-left fa-2xl"></i></button>
+      <!-- <button class="menu-button">MENU</button> -->
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

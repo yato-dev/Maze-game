@@ -1,0 +1,134 @@
+
+body {
+  margin: 0px;
+  height:100%;
+  width:100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+.winner{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.win-message, .menu-heading{
+    color:white;
+    font-size: 3rem;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+
+.menu-heading{
+    /* margin-left:28% */
+    margin-bottom: 2%;
+}
+
+.hidden{
+    display: none;
+}
+
+.restart{
+    width:100px;
+    height:60px;
+    background: none;
+    border: 0px;
+    color:white;
+    font-size:2.5rem;
+}
+.game-logo{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background:  center / contain no-repeat  url('https://64.media.tumblr.com/4f4d7bd789e2a2b6ce0cba4432ba4500/tumblr_mlyd4r4it01rh9z1ko1_500.gifv');
+    z-index: 1;
+    background-size: cover;
+
+
+}
+.name  {
+    position: absolute;
+    z-index: 2;
+    margin-left:36%;
+    margin-top: 8%;
+    font-family: 'Bebas Neue', cursive;
+}
+.name .start-name{
+    font-size:10rem;
+    color: azure;
+    padding: 0;
+    margin: 0;
+    line-height: 0.9;
+}
+
+.start ,.menu-button{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+    border: 0;
+    margin-left: 26%;
+    border-radius: 0%;
+    color:white;
+    background: none;
+    font-weight: 600;
+}
+
+.start:hover{
+    font-weight: 1000;
+    color: black;
+}
+
+.menu-button{
+    margin-top:2%;
+    margin-left:4%;
+    margin-right: 4%;;
+    font-size: 2.4rem;
+}
+
+
+.show{
+    width:100vw;
+    height:100vh;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute; */
+    z-index: 1;
+    background: black;
+    font-size: 6rem;
+}
+.easy, .medium, .hard{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+    border: 0;
+    /* margin-left: 26%; */
+    border-radius: 0%;
+    color:white;
+    background: none;
+    font-weight: 600;
+}
+.Menu{
+    display: flex;
+    flex-direction: column;
+    padding-top:8%;
+}
+
+ .hard:hover{
+    font-weight:1000;
+    color:red;
+}
+ .medium:hover{
+    font-weight:1000;
+    color:red;
+}
+.easy:hover{
+    font-weight:1000;
+    color:red;
+}
